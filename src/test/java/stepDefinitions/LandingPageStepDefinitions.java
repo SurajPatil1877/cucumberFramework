@@ -1,4 +1,4 @@
-package stepDefinations;
+package stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -12,7 +12,7 @@ import org.testng.Assert;
 import java.util.Iterator;
 import java.util.Set;
 
-public class GreenKartStepDefination {
+public class LandingPageStepDefinitions {
 
     private WebDriver driver;
     private String expectedProductName;
