@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af37d29-e43b-4069-bdfa-cbbce7a53091" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNgRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinations/GreenKartStepDefination.java" afterDir="false" />
+    <list default="true" id="9af37d29-e43b-4069-bdfa-cbbce7a53091" name="Changes" comment="rename the class">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/OfferPageStepDefinitaion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestContextSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/searchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/searchProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +47,17 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestNgRunner.executor": "Run",
     "git-widget-placeholder": "lenovo",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stepDefinitions" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TestNgRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="cucumberFrameworkE2E" />
@@ -91,12 +99,30 @@
       <option name="project" value="LOCAL" />
       <updated>1744282527391</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="search and validate">
+      <option name="closed" value="true" />
+      <created>1744348137133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744348137133</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rename the class">
+      <option name="closed" value="true" />
+      <created>1744348766410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744348766410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="search and validate" />
+    <MESSAGE value="rename the class" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename the class" />
   </component>
 </project>
