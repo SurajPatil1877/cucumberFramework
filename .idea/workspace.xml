@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af37d29-e43b-4069-bdfa-cbbce7a53091" name="Changes" comment="rename the class">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/OfferPageStepDefinitaion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestContextSetup.java" afterDir="false" />
+    <list default="true" id="9af37d29-e43b-4069-bdfa-cbbce7a53091" name="Changes" comment="Pico container and Lombok added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/OffersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/PageObjectManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/OfferPageStepDefinitaion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/OfferPageStepDefinitaion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestContextSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestContextSetup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744348766410</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pico container and Lombok added">
+      <option name="closed" value="true" />
+      <created>1744355738891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744355738891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +132,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="search and validate" />
     <MESSAGE value="rename the class" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename the class" />
+    <MESSAGE value="Pico container and Lombok added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pico container and Lombok added" />
   </component>
 </project>
