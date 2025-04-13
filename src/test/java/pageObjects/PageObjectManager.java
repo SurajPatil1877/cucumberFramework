@@ -2,6 +2,7 @@ package pageObjects;
 
 import lombok.AllArgsConstructor;
 import org.openqa.selenium.WebDriver;
+import utils.GenericUtils;
 
 @AllArgsConstructor
 public class PageObjectManager {

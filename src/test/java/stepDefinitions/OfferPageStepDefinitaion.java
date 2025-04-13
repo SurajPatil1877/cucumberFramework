@@ -3,12 +3,10 @@ package stepDefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import lombok.AllArgsConstructor;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import pageObjects.OffersPage;
 import utils.TestContextSetup;
-
-import java.util.Iterator;
-import java.util.Set;
 
 @AllArgsConstructor
 public class OfferPageStepDefinitaion {
@@ -28,14 +26,11 @@ public class OfferPageStepDefinitaion {
     @And("Validate product name matches with Landing Page")
     public void validateProductInOffersPage() {
         Assert.assertEquals(setup.getActualProductName(), setup.getLandingPageProductName(), "Product name is not matching");
-        setup.getDriver().quit();
+        setup.getTestBase().webDriverManager().quit();
+
     }
 
     private void switchToOffersPage() {
-        Set<String> windowHandles = setup.getDriver().getWindowHandles();
-        Iterator<String> iterator = windowHandles.iterator();
-        String parentWindow = iterator.next();
-        String childWindow = iterator.next();
-        setup.getDriver().switchTo().window(childWindow);
+        setup.getGenericUtils().switchToChildWindow();
     }
 }

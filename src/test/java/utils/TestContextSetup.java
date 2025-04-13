@@ -2,19 +2,22 @@ package utils;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.openqa.selenium.WebDriver;
 import pageObjects.PageObjectManager;
 
 @Getter
 @Setter
 public class TestContextSetup {
 
-    private WebDriver driver;
     private String landingPageProductName;
     private String actualProductName;
     private PageObjectManager pageObjectManager;
+    private TestBase testBase;
+    private GenericUtils genericUtils;
 
-    public TestContextSetup(){
-        pageObjectManager = new PageObjectManager(driver);
+
+    public TestContextSetup() {
+        testBase = new TestBase();
+        pageObjectManager = new PageObjectManager(testBase.webDriverManager());
+        genericUtils = new GenericUtils(testBase.webDriverManager());
     }
 }
