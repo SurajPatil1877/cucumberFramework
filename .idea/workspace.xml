@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9af37d29-e43b-4069-bdfa-cbbce7a53091" name="Changes" comment="Pico container and Lombok added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/GenericUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/checkout.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/CheckoutPageStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/global.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNgRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNgRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/searchProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/searchProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/PageObjectManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/OfferPageStepDefinitaion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/OfferPageStepDefinitaion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestContextSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestContextSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +40,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2vX84XW3quHKDaUsqkE3G2fThyN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,12 +61,21 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestNgRunner.executor": "Run",
     "git-widget-placeholder": "lenovo",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects/learning/cucumberFramework/cucumberFrameworkE2E/src/test/java/features"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\learning\cucumberFramework\cucumberFrameworkE2E\src\test\java\features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\learning\cucumberFramework\cucumberFrameworkE2E\src\test\resources\driver" />
+      <recent name="D:\Projects\learning\cucumberFramework\cucumberFrameworkE2E\src\test\resources\properties" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepDefinitions" />
+      <recent name="pageObjects" />
     </key>
   </component>
   <component name="RunManager">
@@ -132,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744552931100</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Pico container and Lombok added">
+      <option name="closed" value="true" />
+      <created>1744564489883</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744564489883</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
