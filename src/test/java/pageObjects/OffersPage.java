@@ -1,0 +1,24 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class OffersPage {
+
+    private final WebDriver driver;
+
+    private final By searchField = By.id("search-field");
+    private final By productName = By.cssSelector("tr td:nth-child(1)");
+
+    public OffersPage(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    public void searchItem(String item) {
+        driver.findElement(searchField).sendKeys(item);
+    }
+
+    public String getProductName() {
+        return driver.findElement(productName).getText();
+    }
+}
