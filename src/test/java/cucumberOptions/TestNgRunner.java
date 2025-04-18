@@ -8,8 +8,11 @@ import org.testng.annotations.DataProvider;
         features = "src/test/java/features",
         glue = "stepDefinitions",
         monochrome = true,
-        plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json"},
-        tags = "@PlaceOrder")
+        tags = "@PlaceOrder or @OffersPage",
+        plugin = {"pretty",
+                "html:target/cucumber.html",
+                "json:target/cucumber.json",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class TestNgRunner extends AbstractTestNGCucumberTests {
     @Override
     @DataProvider(parallel = true)
