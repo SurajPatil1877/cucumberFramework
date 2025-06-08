@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9af37d29-e43b-4069-bdfa-cbbce7a53091" name="Changes" comment="reports and ss add">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/FailedTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/driver/linux/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNgRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestNgRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/driver/windows/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2vX84XW3quHKDaUsqkE3G2fThyN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -46,7 +47,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.cucumberFrameworkE2E [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestNgRunner.executor": "Run",
     "git-widget-placeholder": "lenovo",
@@ -54,7 +58,8 @@
     "last_opened_file_path": "D:/Projects/learning/cucumberFramework/cucumberFrameworkE2E/src/test/java/features",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -62,6 +67,7 @@
       <recent name="D:\Projects\learning\cucumberFramework\cucumberFrameworkE2E\src\test\java\features" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/driver/windows" />
       <recent name="D:\Projects\learning\cucumberFramework\cucumberFrameworkE2E\src\test\resources" />
       <recent name="D:\Projects\learning\cucumberFramework\cucumberFrameworkE2E\src\test\resources\driver" />
       <recent name="D:\Projects\learning\cucumberFramework\cucumberFrameworkE2E\src\test\resources\properties" />
@@ -71,6 +77,11 @@
       <recent name="stepDefinitions" />
       <recent name="pageObjects" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="TestNgRunner" type="TestNG" temporary="true" nameIsGenerated="true">
